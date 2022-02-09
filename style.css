@@ -1,0 +1,646 @@
+html
+{
+    font-size: 62.5%;
+}
+
+
+body
+{
+	margin: 0;
+	width: 100%;
+	background: linear-gradient(#1d2228, #808f99);
+    font-family: 'Lato', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+}
+
+
+.bgcolorforbody
+{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to right, #1d2228, #808f99);
+}
+.Luna
+{
+    display: block;
+    width: 100rem;
+    height: 100rem;
+    padding-bottom: 10rem;
+}
+
+
+/*Header*/
+.header
+{
+    display: flex;
+    width: calc(100% - 250px);
+    height: 80px;
+    background: rgba(28, 33, 39, 0.4);
+    /*border-bottom: 1px solid #000000;*/
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+.header_left
+{
+    width: 60%;
+}
+
+
+.nav_list
+{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    height: 80px;
+    list-style-type: none;
+}
+
+
+.nav_link
+{
+    padding: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.4s linear;
+    
+}
+
+
+.nav_link:hover
+{
+    background: #FFFFFF;
+    color: #333333;
+}
+
+
+.header_right
+{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.search
+{
+    display: flex;
+    width: 100%;
+    max-width: 21rem;
+    background-color: #333333;
+}
+
+
+.input
+{
+    display: block;
+    width: 21rem;
+    height: 8rem;
+    padding: 2.8rem 2rem;
+    background: transparent;
+    border: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: #FFFFFF;
+}
+.containerforheader
+{
+    
+}
+
+
+.page
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Sidebar*/
+.sidebar
+{
+    width: 250px;
+    height: 100vh;
+    background: rgba(28, 33, 39, 0.4);
+    box-shadow: 20px 0 20px rgba(35, 37, 38, 0.1);
+    /*border-right: 1px solid #000000;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+
+.sidebar_header
+{
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+
+.sidebar_content
+{
+    display: block;
+    width: inherit;
+    height: 400px;
+    line-height: 1.6;
+    padding-top: 40px;
+    text-decoration: none;
+}
+
+
+.navsidebar
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.microsidebar_header
+{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Trajan Pro 3';
+    text-align: center;
+}
+
+
+.microsidebar_header:hover
+{
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.social
+{
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+
+.social_items
+{
+    margin: 0 10px;
+    box-shadow: 0 7px 17px -10px rgba(0, 0, 0, 0.8);
+}
+
+
+.social_link
+{
+    
+}
+
+
+.img
+{
+    display: block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+
+.sidebar_footer
+{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    margin: 0 auto;
+}
+
+
+.logoplustext
+{
+    display: flex;
+    border-radius: 3em;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    background: #333333;
+    color: #FFFFFF;
+    width: inherit;
+    align-items: center;
+	justify-content: center;
+    box-shadow: 0 7px 17px -10px rgba(0, 0, 0, 0.8);
+    transition: color 0.4s linear;
+}
+
+
+.logoplustext:hover
+{
+    background-color: #FFFFFF;
+    color: #333333;
+}
+.text
+{
+    font-size: 20px;
+    font-family: 'NotoSans';
+    font-weight: 700;
+    padding-right: 10px;
+}
+.btnsteam
+{
+    display: inline-block;
+    vertical-align: top;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.Steam
+{
+    display: flex;
+    border-radius: 100%;
+    border: 1px solid #FFFFFF;
+    width: 50px;
+    height: 50px;
+}
+
+
+.sidebar_footer2
+{
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 30px;
+}
+.secondbutton
+{
+    display: flex;
+    width: 200px;
+    height: 40px;
+    margin:0 auto;
+    justify-content: center;
+}
+
+
+.btn
+{
+    display: inline-block;
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+    font-family: 'NotoSans';
+    font-size: 14px;
+    font-weight: 400;
+    background: #333333;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-shadow: 0 7px 17px -10px rgba(0, 0, 0, 0.8);
+    transition: color 0.4s linear;
+}
+
+
+.btn:hover
+{
+    background-color: #FFFFFF;
+    color: #333333;
+}
+/*Main*/
+.main
+{
+    padding-left: 300px;
+    padding-top: 14rem;
+}
+
+
+.video
+{
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.background_video
+{
+    width: 192rem;
+    height: 108rem;
+	background-size: cover;
+
+}
+
+
+.container_text
+{
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif, italic;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50%, -50%);
+  text-align: center;
+}
+
+
+.container_text:after
+{
+	content: " ";
+	display: block;
+	width: 10rem;
+	height: 4px;
+	margin: 0.8rem 40rem 0;
+	background-color: #DC143C;
+}
+
+
+.container_text span
+{
+    text-transform: uppercase;
+    display: block;
+}
+
+
+.main_text
+{
+    font-size: 10rem;
+    font-family: 'Josefin Sans', sans-serif, italic;
+    font-weight: 700;
+    letter-spacing: 0.6rem;
+    color: #FFFFFF;
+    animation: text 4s 1;   
+}
+
+
+@keyframes text
+{
+    0%{
+        color:  #FFFFFF;
+        margin-left: -20rem;
+    }
+    30%{
+        /*letter-spacing: 0.4rem;*/
+        margin-left: -20rem;
+    }
+    85%{
+        /*letter-spacing: 0.6rem;*/
+        margin-left: -20rem;
+    }
+}
+
+.Hero
+{
+   display: flex;
+   width: 100vw;
+   height: 100vh;
+   top: 0;
+   left: 0;
+   right: 0;
+   justify-content: center;
+}
+
+
+.Pick
+{
+    font-size: 4rem;
+    font-family: 'Josefin Sans', sans-serif, italic;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+    padding-bottom: 4rem;
+}
+.HeroesTable
+{
+	display: flex;
+    flex-direction: column;
+    width: 540px;
+    height: 100vh;
+    background: #00000060;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 0 20px rgba(35, 37, 38, 0.1);
+}
+
+
+.tr
+{
+    background: linear-gradient(80deg, #252728 0%, #101415 100%);
+    border-top: 2px solid #282828;
+    border-bottom: 2px solid #2c2e2e;
+    box-shadow: 0px 0px 8px #000;
+    position: relative;
+}
+
+
+.Heroes
+{
+	display: block;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.tr:hover .Heroes img
+{
+    opacity: 0.8;
+    transform: translate3d(-10px, -10px, 0);
+}
+
+
+.tr:hover .fonHeroes
+{
+    opacity: 1;
+}
+.tr:hover .Heroes_text
+{
+    opacity: 1;
+}
+.fonHeroes img
+{
+    transform: opacity 0.4s linear;
+    transition: transform 0.4s linear;
+}
+
+
+.fonHeroes
+{
+    width: 80%;
+    height: 5rem;
+    align-items: center;
+    background-color: #000000;
+    opacity: 0;
+    transform: translate3d(8%, -124%, 0);
+    transition: opacity 0.4s linear;
+    position: absolute;
+}
+.Heroes_text
+{
+    width: 100%;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    transform: translate3d(0, -50%, 0);
+    transition: opacity 0.4s linear;
+}
+/*Luna Page*/
+.total
+{
+	display: flex;
+	width: 100%;
+	height: 80vh;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+	justify-content: flex-end;
+}
+.informationHerosum
+{
+	display: flex;
+	width: 40%;
+	height: 100%;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.textLuna
+{
+	display: block;
+	padding-left: 4rem;
+}
+
+
+.Lunah1
+{
+    text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 10rem;
+	font-weight: 700;
+}
+.videoHero
+{
+	display: flex;
+    width: 60%;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+
+.section
+{
+	display: flex;
+	width: 100%;
+	z-index: 2;
+}
+
+
+.sectioncontainer
+{
+	display: flex;
+	width: 99vw;
+	height: 20rem;
+	background: linear-gradient(80deg, #252728 0%, #101415 100%);
+    border-top: 2px solid #282828;
+    border-bottom: 2px solid #2c2e2e;
+    box-shadow: 0px 0px 8px #000;
+	z-index: 2;
+}
+.herostats1
+{
+    display: block;
+    width: 25vw;
+    height: 20rem;
+}
+.herostats2
+{
+    display: block;
+    width: 25vw;
+    height: 20rem;
+}
+.herostats3
+{
+    display: block;
+    width: 25vw;
+    height: 20rem;
+}
+.herostats4
+{
+    display: block;
+    width: 25vw;
+    height: 20rem;
+}
+.line
+{
+    display: flex;
+	width: 100%;
+    height: 650px;
+    background-color: #00000060;
+    position: absolute;
+    transform: skewY(-30deg) translateX(0%);
+    overflow: hidden;
+}
+/*.containermain
+{
+	max-width: 700px;
+	margin: 0 auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.contentcheck {
+	display: inline-block;
+	padding: 15px 20px;
+	background: #672cc5;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border-bottom: 3px solid #32145a;
+}
+.contentcheck:hover {
+	color: #fff;
+	background: #7c4acc;
+	border-bottom: 3px solid #32145a;
+}
+.contentcheck:active {
+	background: #34106d;
+}
+        <div class="HeroesTable">
+          <a class="Heroes" href="https://store.steampowered.com/app/570/Dota_2/" target="_blank">
+            <img src="assets/images/luna.png" alt="Luna" width="250" height="150">
+          </a>
+          <a class="Heroes" href="https://www.dota2.com/store" target="_blank">
+            <img src="assets/images/mirana.png" alt="Mirana" width="250" height="150">
+          </a>
+          <a class="Heroes" href="https://www.dota2.com/pastupdates" target="_blank">
+            <img src="assets/images/marci.png" alt="Marci" width="250" height="150">
+          </a>
+          <a class="Heroes" href="https://www.dota2.com/pastupdates" target="_blank">
+            <img src="assets/images/lina.png" alt="Lina" width="250" height="150">
+          </a>
+        </div>*/
